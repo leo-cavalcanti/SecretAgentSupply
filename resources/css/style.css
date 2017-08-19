@@ -33,13 +33,50 @@ body {
 /*Main Banner*/
 
 .main-banner {
+  align-items: center;
   background: url("../images/moto.jpeg") center right no-repeat;
   background-size: cover;
+  display: flex;
   height: 25rem;
+  justify-content: center;
 }
 
 .main-banner .container {
+  align-items: center;
+  display: flex;
+  margin-top: 9rem;
   width: 960px;
 }
 
-.headline
+.headline {
+  background-color: black;
+  font-weight: bold;
+  padding: 2.5rem 3.5rem;
+  width: 20rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+
+/*Navigation bar*/
+
+nav {
+  background-color: firebrick;
+}
+
+nav .container {
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mobile-nav {
+  visibility: hidden;
+  color: yellow;
+}
