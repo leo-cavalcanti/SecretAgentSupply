@@ -1,0 +1,45 @@
+body {
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+/*Header*/
+
+.header {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 3.12rem;
+}
+
+.header .container {
+  align-items: center;
+  display: flex;
+  width: 960px;
+}
+
+.logo {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.header .container span {
+  margin: 0.66rem 0;
+}
+
+/*Main Banner*/
+
+.main-banner {
+  background: url("../images/moto.jpeg") center right no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
+
+.main-banner .container {
+  width: 960px;
+}
+
+.headline
