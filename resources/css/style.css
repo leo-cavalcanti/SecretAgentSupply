@@ -67,16 +67,95 @@ nav {
 }
 
 nav .container {
+  align-items: center;
   background-color: firebrick;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 0;
-  max-width: 960px;
   margin: 0 auto;
+  max-width: 960px;
+  padding: 0.75rem 0;
 }
 
 .mobile-nav {
   visibility: hidden;
   color: yellow;
+}
+
+/*Products*/
+
+.container .products {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 3rem 0;
+}
+
+.product {
+  align-items: center;
+  background-color: black;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.product-image {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 9rem;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.product-image img {
+  max-height: 9rem;
+  max-width: 144px;
+}
+
+.description {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+/*Business-Info*/
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  width: 35%;
+}
+
+.title {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.info p {
+  color: black;
+}
+
+/*Footer*/
+
+footer {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 9rem;
+  justify-content: center;
+}
+
+footer .container {
+  width: 960px;
 }
